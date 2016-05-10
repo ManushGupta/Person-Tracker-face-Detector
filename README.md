@@ -6,3 +6,5 @@ Started off with background subtractor on the video to get the foreground and ba
 Second part was to get top view of people's location in the room. I do not know if this part can be accurately done without a stereo camera for depth estimation of objects(and typically no webcam will have stereo cam). Nonetheless , i tried to do a perspective transform to try to get near to the solution but i couldn't receive a satisfactory result as the two planes to change perspective are almost perpendicular as a result one coordinate gets cancelled out during transformation giving only a black image. 
 
 Environment : Python 2.7 , opencv 2.4
+
+![alt tag](person_coordinates/Screenshot.png)
