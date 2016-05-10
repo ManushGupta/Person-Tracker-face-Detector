@@ -7,4 +7,9 @@ Second part was to get top view of people's location in the room. I do not know 
 
 Environment : Python 2.7 , opencv 2.4
 
+USE COMMAND in terminal:
+  
+ python person_tracking.py --video test.mp4
+
+
 ![alt tag](person_coordinates/Screenshot.png)
